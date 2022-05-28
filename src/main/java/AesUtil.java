@@ -11,8 +11,8 @@ import java.security.spec.KeySpec;
 import java.util.Base64;
 
 public class AesUtil {
-    private static final String key = "u_magnovenju_key";
-    private static final String salt = "istinite_price_salt";
+    private static final String key = "JovanaJelenaMagicniKljuc";
+    private static final String salt = "GrigorijePalamaSalt";
 
     public static String encrypt(String input){
         try{
